@@ -1,7 +1,7 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #000;
-$body-color: white;
+// $body-bg: #000;
+// $body-color: white;
 $primary: #1fa7a9;
 $font-family-base: Arial;
 
@@ -9,6 +9,26 @@ $font-family-base: Arial;
 @import "~bootstrap/scss/bootstrap";
 
 // Add you custom CSS
+
 body {
-  padding: 20px;
+  padding: 3%;
+  margin-left: 10%;
+}
+.row {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.col {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.h1 {
+  align-content: center;
+}
+.card {
+  max-width: 300px;
+  padding: 5px;
+  margin-top: 5px;
 }
